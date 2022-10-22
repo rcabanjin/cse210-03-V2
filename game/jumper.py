@@ -1,5 +1,4 @@
 class Display():
-<<<<<<< HEAD
 
     def __init__(self):
         self.dash = '_____'
@@ -57,33 +56,6 @@ class Display():
             print(self.parachute[10] + '   /' + self.parachute[11] + '|' + self.parachute[12] + '\x5c')
             print(self.parachute[13] + '    /' + self.parachute[14] + '\x5c')
             return
-=======
-        #Print the display for a 5 letter word
-            #Create a board for the parachute and the man
-            def __init__(board): {
-                    1: '', 
-                    2: '', 3: '', 
-                    4: '', 
-                    5: '', 6: '',
-                    7: '', 8: '',
-                    9: '',
-                    10: '', 11: '', 12: '',
-                    13: '', 14: ''
->>>>>>> 1eb0b67be3ddf27cc85e1631d023876b9df1037e
 
 
-<<<<<<< HEAD
 
-=======
-            parachute_man =[' '] * 15
-            display_parachute(parachute_man)
-            
-           
-            def __init__(self):
-                self._letters = []
-
-            def get_words(self, dash):
-                self._letters.append(dash)
-            dash = ('-----')
-            print(dash) 
->>>>>>> 1eb0b67be3ddf27cc85e1631d023876b9df1037e
